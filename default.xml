@@ -14,5 +14,6 @@
   <project name="meta-qt6" remote="qtcode" path="meta-qt6" revision="6.9"/>
   <project name="sbabic/meta-swupdate" remote="github" path="meta-swupdate" revision="scarthgap"/>
   <project name="meta-lts-mixins" remote="yocto" path="meta-lts-mixins" revision="scarthgap/rust"/>
+  <project name="sarthakmn/meta-ivi" remote="github" path="meta-ivi" revision="scarthgap"/>
 
 </manifest>
