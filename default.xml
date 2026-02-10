@@ -5,14 +5,14 @@
 
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/"/>
   <remote name="openembedded" fetch="https://git.openembedded.org/"/>
-  <remote name="github" fetch="git@github.com:"/>
   <remote name="qtcode" fetch="https://code.qt.io/yocto/"/>
-  
+  <remote name="github" fetch="git@github.com:"/>
+
   <project name="poky" remote="yocto" path="poky"/>
   <project name="meta-openembedded" remote="openembedded" path="meta-openembedded"/>
   <project name="agherzan/meta-raspberrypi" path="meta-raspberrypi"/>
   <project name="sbabic/meta-swupdate" path="meta-swupdate"/>
-  <project name="meta-lts-mixins" remote="yocto" path="meta-lts-mixins"/>
+  <project name="meta-lts-mixins" remote="yocto" path="meta-lts-mixins" revision="master"/>
   <project name="yocto/meta-qt6" remote="qtcode" path="meta-qt6" revision="6.11"/>
   <project name="sarthakmn/meta-ivi" path="meta-ivi" revision="1c0395f19c99469f2c2cd6389a2df6ca149883ab"/>
 
