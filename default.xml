@@ -5,7 +5,7 @@
 
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   <remote name="openembedded" fetch="https://git.openembedded.org"/>
-  <remote name="github" fetch="https://github.com"/>
+  <remote name="github" fetch="git@github.com:"/>
   <remote name="qtcode" fetch="https://code.qt.io/yocto"/>
 
   <project name="poky" remote="yocto" path="poky"/>
