@@ -6,12 +6,13 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   <remote name="openembedded" fetch="https://git.openembedded.org"/>
   <remote name="github" fetch="https://github.com"/>
+  <remote name="qtcode" fetch="https://code.qt.io/yocto"/>
 
   <project name="poky" remote="yocto" path="poky"/>
   <project name="meta-openembedded" remote="openembedded" path="meta-openembedded"/>
-  <project name="meta-qt6" remote="github" path="meta-qt6"/>
-  <project name="meta-raspberrypi" remote="github" path="meta-raspberrypi"/>
-  <project name="meta-lts-mixins" remote="yocto" path="meta-lts-mixins"/>
-  <project name="meta-swupdate" remote="github" path="meta-swupdate"/>
+  <project name="agherzan/meta-raspberrypi" remote="github" path="meta-raspberrypi" revision="scarthgap"/>
+  <project name="meta-qt6" remote="qtcode" path="meta-qt6" revision="6.9"/>
+  <project name="sbabic/meta-swupdate" remote="github" path="meta-swupdate" revision="scarthgap"/>
+  <project name="meta-lts-mixins" remote="yocto" path="meta-lts-mixins" revision="scarthgap/rust"/>
 
 </manifest>
