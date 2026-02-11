@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default revision="scarthgap" sync-j="8"/>
+  <default revision="scarthgap" remote="github" sync-j="8"/>
 
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   <remote name="openembedded" fetch="https://git.openembedded.org"/>
-  <remote name="github" fetch="https://github.com"/>
+  <remote name="github" fetch="ssh://git@github.com/"/>
   <remote name="qtcode" fetch="https://code.qt.io/yocto"/>
 
   <project name="poky" remote="yocto" path="poky"/>
   <project name="meta-openembedded" remote="openembedded" path="meta-openembedded"/>
-  <project name="agherzan/meta-raspberrypi" remote="github" path="meta-raspberrypi" revision="scarthgap"/>
+  <project name="agherzan/meta-raspberrypi" path="meta-raspberrypi"/>
   <project name="meta-qt6" remote="qtcode" path="meta-qt6" revision="6.11"/>
-  <project name="sbabic/meta-swupdate" remote="github" path="meta-swupdate" revision="scarthgap"/>
+  <project name="sbabic/meta-swupdate" path="meta-swupdate"/>
   <project name="meta-lts-mixins" remote="yocto" path="meta-lts-mixins" revision="scarthgap/rust"/>
-  <project name="sarthakmn/meta-ivi" remote="github" path="meta-ivi" revision="scarthgap"/>
+  <project name="sarthakmn/meta-ivi" path="meta-ivi"/>
 
 </manifest>
