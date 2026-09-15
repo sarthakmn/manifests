@@ -15,6 +15,6 @@
   <project name="sbabic/meta-swupdate" path="meta-swupdate"/>
   <project name="meta-lts-mixins" remote="yocto" path="meta-lts-mixins" revision="scarthgap/rust"/>
   <project name="sarthakmn/meta-ivi" path="meta-ivi"/>
-  <project name="sarthakmn/App-Mart" path="App-Mart"/>
+  <project name="sarthakmn/App-Mart" path="App-Mart" revision="main"/>
 
 </manifest>
